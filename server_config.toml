@@ -1,0 +1,43 @@
+[log] # Не трогал
+path = "logs"
+format = "log_%(date)s-%(time)s.txt"
+level = 1
+enabled = false
+
+[net] # Не трогал
+tickrate = 30
+port = 1212
+bindto = "::,0.0.0.0"
+max_connections = 75 # Максимум 60 подключений
+
+[status]
+enabled = true # Показываем сервер в хабе.
+
+[game]
+hostname = "[RU][18+] NetWork - Глобальное сообщество по SS14."
+desc = "Интересные дополнения, кастомные карты, ЛРП и ответственные админы ждут Вас! А чего же ждете Вы? Присоединяйтесь!" # Сюда описание напиши, мне лень копиролвать его честно
+round_restart_time = 180 #Время между рестартом РАУНДА в секундах
+
+[hub]
+advertise = true #Показываем сервер в хабе
+tags = "region:eu_e, lang:ru, rp:low" #Регион восточная европа, язык русский, лрп
+server_url = "" #чето связанное с днсом дднсом выделенным айпишником. НЕ ТРОГАЛ.
+hub_urls = "https://central.spacestation14.io/hub/" #В каком хабе будет видно сервер. Хаб визардов.
+
+[infolinks]
+discord = "https://discord.gg/network-ss14" #ДС инвайт
+
+[discord]
+ahelp_webhook = "https://discord.com/api/webhooks/1247255603722715199/nZni9gKSKhWhAxfUQQFpDFtYp1pi1xWiO1h3IenKi3MurYB-ZF3OtnHPbweT7NyTiJmt" #Вебхук
+vote_webhook = "https://discord.com/api/webhooks/1247265812822360075/JG3L8a4iwo-QfnjG89wfvh4M_ALW-uvrSsGueyZUur1Npf2w6DyQ5v8PvK-9d7XPwESi" #Вебхук
+round_update_webhook = "https://discord.com/api/webhooks/1247265815724822762/12NbzPie4uXAWMNzzEXVE2a-CgrhpHJiLivDvZwl3kFKinmwH4GuRqnhJ-5vm95UIgVM" #Вебхук
+round_end_role = "" #Айди рольки
+
+[admin]
+role_ban_default_severity = "high" #Тяжесть бана по умолчанию. high - банит по айпи, хвиду и нику
+
+[shuttle]
+emergency_early_launch_allowed = true #Досрочный запуск эвака разрешён
+
+[ic]
+flavor_text = true #Описание персонажей разрешено
